@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Canela Deck";
+    font-weight: 400;
+}
+
+/* специальный класс для ограничения блока, шириной 1280px */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+/* HEADER */
+.header {
+    font-family: "Glock Grotesque", sans-serif;
+    background: rgba(208, 208, 208, 0.40);
+}
+
+.header__inner {
+    padding: 25px 0;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+.menu__item {
+    color: #040006;
+    font-size: 16px;
+    font-family: "Glock Grotesque", sans-serif;
+}
+
+.menu__link {
+    color: #040006;
+    font-family: "Glock Grotesque", sans-serif;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.menu__link-active {
+    color: red;
+}
+
+.menu__button {
+    padding: 13px 37px;
+    color: white;
+    font-size: 14px;
+    font-family: "Glock Grotesque", sans-serif;
+    background: #3D5224;
+    border: none;
+    line-height: 14px;
+}
+
+/* WELCOME */
+.welcome {
+
+}
+
+.welcome__background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.welcome__background img {
+    object-fit: cover;
+}
+
+.vibe {
+    margin-top: 100vh;
+    height: 100vh;
+}
